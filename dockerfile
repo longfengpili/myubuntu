@@ -8,9 +8,9 @@ LABEL org.opencontainers.image.licenses=MIT
 USER root
 
 # 设置环境变量，以支持中文
-ENV LANG zh_CN.UTF-8
-ENV LANGUAGE zh_CN.UTF-8
-ENV LC_ALL zh_CN.UTF-8
+ENV LANG=zh_CN.UTF-8
+ENV LANGUAGE=zh_CN.UTF-8
+ENV LC_ALL=zh_CN.UTF-8
 
 # 设置容器的时区为东八区，即北京时间
 ENV TZ=Asia/Shanghai
