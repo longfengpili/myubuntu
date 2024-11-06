@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 LABEL maintainer="chunyang"
-LABEL org.opencontainers.image.source=git@github.com:longfengpili/myubuntu.git
+LABEL org.opencontainers.image.source=https://github.com/longfengpili/myubuntu
 LABEL org.opencontainers.image.description="myubuntu image"
 LABEL org.opencontainers.image.licenses=MIT
 
