@@ -1,5 +1,8 @@
 FROM ubuntu:latest
 LABEL maintainer="chunyang"
+LABEL org.opencontainers.image.source=git@github.com:longfengpili/myubuntu.git
+LABEL org.opencontainers.image.description="myubuntu image"
+LABEL org.opencontainers.image.licenses=MIT
 
 # Docker 内用户切换到 root
 USER root
